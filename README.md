@@ -1,7 +1,7 @@
-# 🌲 Random Forest Classifier — Loan Approval Prediction
+# 🌲 Random Forest Classifier - Loan Approval Prediction
 
 > Mini Project | Classification Algorithms Exploration  
-> Dataset: [Loan Approval Dataset — Kaggle](https://www.kaggle.com/datasets/anishdevedward/loan-approval-dataset)
+> Dataset: [Loan Approval Dataset - Kaggle](https://www.kaggle.com/datasets/anishdevedward/loan-approval-dataset)
 
 ---
 
@@ -18,7 +18,7 @@ The project covers the full machine learning pipeline:
 
 ---
 
-## 🧠 Algorithm — Random Forest
+## 🧠 Algorithm - Random Forest
 
 Random Forest is an **ensemble learning** method that builds multiple Decision Trees during training and merges their results to produce a more accurate and stable prediction.
 
@@ -50,7 +50,7 @@ Random Forest is an **ensemble learning** method that builds multiple Decision T
 
 | Property | Value |
 |---|---|
-| **Source** | Kaggle — `anishdevedward/loan-approval-dataset` |
+| **Source** | Kaggle - `anishdevedward/loan-approval-dataset` |
 | **File** | `loan_approval.csv` |
 | **Rows** | 2,000 |
 | **Columns** | 8 |
@@ -88,9 +88,9 @@ The EDA section includes the following visualizations:
 
 **Key EDA Findings:**
 - `credit_score` and `points` show the strongest separation between approved and rejected applicants
-- No missing values — dataset is clean
+- No missing values - dataset is clean
 - `income` and `loan_amount` show less predictive power individually
-- The dataset may be imbalanced — check the count plot output
+- The dataset may be imbalanced - check the count plot output
 
 ---
 
@@ -98,11 +98,11 @@ The EDA section includes the following visualizations:
 
 Steps applied before model training:
 
-1. **Drop irrelevant columns** — `name` and `city` are removed (not predictive)
-2. **Encode target variable** — `loan_approved` converted from boolean to integer (1/0)
-3. **No missing value imputation needed** — dataset is already clean
-4. **Feature scaling** — applied using `StandardScaler` (important for distance-based comparisons)
-5. **Train/Test split** — 80% training, 20% testing
+1. **Drop irrelevant columns** - `name` and `city` are removed (not predictive)
+2. **Encode target variable** - `loan_approved` converted from boolean to integer (1/0)
+3. **No missing value imputation needed** - dataset is already clean
+4. **Feature scaling** - applied using `StandardScaler` (important for distance-based comparisons)
+5. **Train/Test split** - 80% training, 20% testing
 
 ---
 
