@@ -183,9 +183,3 @@ Or click the badge at the top of the notebook:
 | Model Evaluation | Metrics, confusion matrix, interpretation |
 
 ---
-
-## 📚 References
-
-- [Scikit-learn Random Forest Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
-- [Kaggle Dataset — Loan Approval](https://www.kaggle.com/datasets/anishdevedward/loan-approval-dataset)
-- Breiman, L. (2001). *Random Forests*. Machine Learning, 45, 5–32.
